@@ -1,0 +1,28 @@
+ <div class="row">
+     <div class="col-xs-10">
+        <table class="table table-light">
+            <thead>
+                <tr> 
+                   <th scope="col">Id</th>
+                   <th scope="col">Email</th>
+                   <th scope="col">Full Name</th>
+                   <th scope="col">Activated</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                   <td> {{ supplier.id }} </td>
+                   <td> {{ supplier.email }} </td>
+                   <td> {{ supplier.fullName }} </td>
+                   <td> {{ supplier.isActivated }} </td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
+ </div>
+ <div class="row">
+     <div class="col-xs-10">
+        <button class="btn btn-outline-dark" (click)="onDisplay()" style="margin:10px;">Display Details</button>
+     </div>
+ </div>
+ 

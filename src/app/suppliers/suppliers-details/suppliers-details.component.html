@@ -1,0 +1,40 @@
+ 
+ <table class="table table-light">
+    <thead> 
+         <tr>
+            <th scope="col">#</th>
+             <th scope="col">Id</th>
+             <th scope="col">Email</th>
+             <th scope="col">Full Name</th>
+             <th scope="col">Activated</th>
+             <th scope="col">Verified</th>
+             <th scope="col">Business Informations</th>
+             <th scope="col">Categories</th>
+         </tr>
+    </thead>
+    <tbody>
+         <tr>
+             <img [src]= "supplier.avatar">
+             <img [src]= "supplier.coverPicture">
+             <td> {{ supplier.id }} </td>
+             <td> {{ supplier.email }} </td>
+             <td> {{ supplier.fullName }} </td>
+             <td> {{ supplier.isActivated }} </td>
+             <td> {{ supplier.isVerified }} </td>
+             <td>
+                  <u>
+                       <li>Business Type: {{ supplier.businessInformations.businessType }}</li>
+                       <li>Telephone: {{ supplier.businessInformations.telephone }}</li>
+                       <li>Mobile Phone: {{ supplier.businessInformations.mobilePhone }}</li>
+                       <li>Address: {{ supplier.businessInformations.address }}</li>  
+                       <li>Wilaya: {{ supplier.businessInformations.wilaya }}</li>
+                       <li>Commune: {{ supplier.businessInformations.commune }}</li> 
+                  </u>  
+             </td>
+             <td> {{ supplier.usedCategories }} </td>
+              
+         </tr>
+    </tbody>
+ </table>
+
+

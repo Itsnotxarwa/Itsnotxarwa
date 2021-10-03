@@ -1,0 +1,12 @@
+<h4>suppliers list!</h4>
+<div class="row">
+    <div class="col-xs-12"> 
+        <app-suppliers-list></app-suppliers-list>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <app-suppliers-details *ngIf="displayDetails"
+        [supplier]="displayDetails"></app-suppliers-details>
+    </div>
+</div>
