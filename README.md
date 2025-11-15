@@ -1,3 +1,6 @@
+# Hi there, I'm Marwa Kouachkhia 👋
+Self-Taught Front-End Developer from Algeria
+
 # 💫 About Me:
 I’m a Front-End Developer who builds modern, responsive, and user-friendly websites. I focus on clean design, smooth interactions, and efficient code to bring ideas to life on the web.
 
